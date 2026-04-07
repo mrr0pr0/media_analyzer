@@ -1,6 +1,6 @@
 # media_analyzer
 
-Python CLI app that analyzes **images** and **videos** to detect objects using **YOLOv8 (Ultralytics)** with the CPU-friendly `yolov8n.pt` model (auto-downloads on first run).
+Python CLI app that analyzes **images** and **videos** to detect objects using **YOLOv11 (Ultralytics)** with the CPU-friendly `yolov11n.pt` model (auto-downloads on first run).
 
 ## Setup
 

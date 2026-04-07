@@ -6,10 +6,10 @@ from pathlib import Path
 
 @lru_cache(maxsize=1)
 def load_model():
-    # YOLO will auto-download yolov8n.pt on first run.
+    # YOLO will auto-download yolov11n.pt on first run.
     from ultralytics import YOLO
 
-    return YOLO("yolov8n.pt")
+    return YOLO("yolov11n.pt")
 
 
 def _dedupe_by_label_keep_max(results: list[dict]) -> list[dict]:

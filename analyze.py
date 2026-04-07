@@ -41,7 +41,7 @@ def _copy_saved_frames(
 
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(prog="media_analyzer", description="Analyze images/videos with YOLOv8.")
+    p = argparse.ArgumentParser(prog="media_analyzer", description="Analyze images/videos with YOLOv11.")
     p.add_argument("file", help="Path to an image or video file")
     p.add_argument("--interval", type=int, default=1, help="Frame extraction interval in seconds (default: 1)")
     p.add_argument("--output", type=str, default=None, help="Save results to a JSON file")
